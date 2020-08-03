@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     if(ad_html) {
+
+        document.querySelector('.ad-container').outerHTML = ad_html;
+
         var ad_counter = [0];
         document.querySelectorAll('.article-content > *').forEach(element => {
             if( element.tagName === 'P' ) {

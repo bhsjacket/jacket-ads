@@ -2,7 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if(ad_html) {
 
-        document.querySelector('.ad-container').outerHTML = ad_html;
+        if( document.querySelector('.ad-container') ) {
+            document.querySelector('.ad-container').outerHTML = ad_html;
+        }
 
         var ad_counter = [0];
         document.querySelectorAll('.article-content > *').forEach(element => {

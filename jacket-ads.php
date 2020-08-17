@@ -1,6 +1,7 @@
 <?php
 /*
 Plugin Name: Jacket Ads
+Plugin URI: https://github.com/bhsjacket/jacket-ads
 Author: Jerome Paulos
 Author URI: https://jeromepaulos.com
 Description: An ad manager and injector for WordPress

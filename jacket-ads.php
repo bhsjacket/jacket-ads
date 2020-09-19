@@ -20,7 +20,7 @@ function jacket_generateAdCode() {
         ?>
 
         <script>
-        var ad_html = '<section class="align-full ad-container no-border"><span class="ad-label">Advertisement</span><a href="<?php echo $adUrl; ?>?ref=bhsjacket" target="_blank"><img src="<?php echo $adImage ?>"></a></section>';
+        var ad_html = '<section class="align-full ad-container"><span class="ad-label">Advertisement</span><a href="<?php echo $adUrl; ?>?ref=bhsjacket" target="_blank"><img src="<?php echo $adImage ?>"></a></section>';
         </script>
 
         <script src="<?php echo plugin_dir_url(__FILE__); ?>content-injection.js"></script>
